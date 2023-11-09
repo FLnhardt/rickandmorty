@@ -5,6 +5,7 @@
     margin: 0;
     font-family: inherit;
     box-sizing: border-box;
+    font-family: 'Agbalumo', sans-serif;
   }
   
   /* --- CSS RESET END --- */
@@ -13,6 +14,10 @@
     background-color: antiquewhite
   }
   
+  h1 {
+    text-align: center;
+    padding: 40px
+  }
   div.characters {
     display: flex;
     flex-wrap: wrap;
@@ -43,6 +48,12 @@
   }
   
   div.buttons {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    
+
     margin: 0 auto;
     width: fit-content;
   }
@@ -50,4 +61,6 @@
   div.buttons button {
     padding: 12px 20px;
     font-size: 24px;
+    background-color: rgb(80, 66, 49);
   }
+
